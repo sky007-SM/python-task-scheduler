@@ -400,6 +400,7 @@ def buttons(
                         clear_screen()
                         return toggled_buttons
                     else:
+                        clear_last_line(4)
                         print(Style.apply("Set Priority to Continue", Style.BRIGHT_RED, Style.BOLD))
 
                 else:
